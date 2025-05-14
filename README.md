@@ -1,7 +1,8 @@
 # NNDL-TransferLearning
-**Project title:** *Detecting Novel Birds, Dogs, and Reptiles – Reliable OOD Detection via Energy & Softmax Thresholds*
+**Project title:** *Detecting Novel Birds, Dogs, and Reptiles – Reliable OOD Detection via Energy & Softmax Thresholds*  
 **COMS W4995 Neural Networks and Deep Learning**  
-Columbia University · Spring 2025
+**Columbia University · Spring 2025**
+
 
 ## 📝 Overview  
 We tackle hierarchical image classification in an **open-set** regime using the Bird–Dog–Reptile benchmark.  
