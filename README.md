@@ -1,11 +1,12 @@
 # NNDL-TransferLearning
-# Detecting Novel Birds, Dogs, and Reptiles  
-**COMS W4995 Neural Networks and Deep Learning – Final Project**  
+**Project title:** *Detecting Novel Birds, Dogs, and Reptiles – Reliable OOD Detection via Energy & Softmax Thresholds*
+**COMS W4995 Neural Networks and Deep Learning**  
 Columbia University · Spring 2025
 
 ## 📝 Overview  
-This project addresses hierarchical image classification under open-set conditions using the Bird–Dog–Reptile benchmark.  
-We implement multiple backbone architectures and use confidence-based thresholds (softmax and energy) for out-of-distribution (OOD) detection.
+We tackle hierarchical image classification in an **open-set** regime using the Bird–Dog–Reptile benchmark.  
+A single frozen backbone (AlexNet, ResNet-V2, ConvNeXt-V2, or ViT-Huge/CLIP) feeds two linear heads (super- and sub-class).  
+Novel examples are rejected with a simple confidence threshold (soft-max or energy).
 
 ## 📂 Files Submitted  
 | Notebook | Description |
@@ -27,10 +28,14 @@ We implement multiple backbone architectures and use confidence-based thresholds
    - Download and unzip the `Released_Data_NNDL_2025.zip` dataset into the working directory.
    - Folder structure:
      ```
-     Released_Data_NNDL_2025/
-     ├── train_data.csv
-     ├── train_images/
-     └── test_images/
+      Released_Data_NNDL_2025/
+      ├── train_data.csv
+      ├── train_images/
+      ├── test_images/
+      ├── subclass_mapping.csv
+      ├── superclass_mapping.csv
+      ├── example_test_predictions.csv
+      ├── simple_cnn_demo.ipynb
      ```
 
 3. **Execution**
@@ -47,9 +52,10 @@ We implement multiple backbone architectures and use confidence-based thresholds
 See our full write-up submitted as a separate PDF.
 
 ## Authors
-- Yuhao Tang (`yt2900`)
-- [Teammate Name Here]
-
+- Tejas Chhotulal Badgujar
+- Drew Levin
+- Yuhao Tang
+  
 ## Acknowledgments
 Thanks to the COMS 4995 staff for providing the dataset, leaderboard, and support.
 
