@@ -46,7 +46,6 @@ Novel examples are rejected with a simple confidence threshold (soft-max or ener
 ## Final Results Summary (ViT)
 - **Superclass Accuracy**: 97.33%
 - **Subclass Accuracy**: 75.67%
-- **AUROC**: 0.98 (superclass), 0.95 (subclass)
 
 ## Report
 See our full write-up submitted as a separate PDF.
